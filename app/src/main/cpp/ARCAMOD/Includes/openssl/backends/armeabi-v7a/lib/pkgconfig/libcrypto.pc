@@ -1,0 +1,12 @@
+prefix=/storage/emulated/0/AppProjects/Owned/BydzImGuixArca Release/app/src/main/jni/BydzNS/Tools/curl/openssl-android-armeabi-v7a
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+enginesdir=${libdir}/engines-1.1
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 1.1.0c
+Libs: -L${libdir} -lcrypto
+Libs.private: -L/storage/emulated/0/AppProjects/Owned/BydzImGuixArca Release/app/src/main/jni/BydzNS/Tools/curl/openssl-android-armeabi-v7a/lib -lz -ldl 
+Cflags: -I${includedir}

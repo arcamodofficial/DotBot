@@ -1,0 +1,9 @@
+#ifndef ARCAMOD_H_GAMEENGINE_SYSTEMSETTING_SET_ENABLEVULKAN_H
+#define ARCAMOD_H_GAMEENGINE_SYSTEMSETTING_SET_ENABLEVULKAN_H
+
+#include <string>
+
+static __int64 h_GameEngine_SystemSetting__set_EnableVulkan(__int64 a1, int a2) {
+    return 0;
+}
+#endif //ARCAMOD_H_GAMEENGINE_SYSTEMSETTING_SET_ENABLEVULKAN_H
