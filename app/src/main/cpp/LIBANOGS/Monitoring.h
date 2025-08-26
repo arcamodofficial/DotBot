@@ -480,6 +480,186 @@ static inline bool initialize_monitoring_hooks() PASS_OBF PASS_OBF_STRING {
     // WhileHook(HOOK2(arcamod, "0x300034", h_sub_300034, o_sub_300034)); // MONITORING: Advanced Processor (__int64 return) - INACTIVE
     // WhileHook(HOOK2(arcamod, "0x3000DC", h_sub_3000DC, o_sub_3000DC)); // MONITORING: Thread Synchronizer (__int64 return) - INACTIVE
 
+    // === NEW MONITORING HOOKS SERIES 39 ===
+    // WhileHook(HOOK2(arcamod, "0x10355C", h_sub_10355C, o_sub_10355C)); // MONITORING: Complex Multi-Parameter Handler (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200084", h_sub_200084, o_sub_200084)); // MONITORING: System Cleanup Handler (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x1039B8", h_sub_1039B8, o_sub_1039B8)); // MONITORING: Extended Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x103A28", h_sub_103A28, o_sub_103A28)); // MONITORING: String Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x103A8C", h_sub_103A8C, o_sub_103A8C)); // MONITORING: Unsigned System Function (unsigned return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2000A8", h_sub_2000A8, o_sub_2000A8)); // MONITORING: Memory Processor (unsigned return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x30000C", h_sub_30000C, o_sub_30000C)); // MONITORING: Advanced Multi-Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x300090", h_sub_300090, o_sub_300090)); // MONITORING: Parameter Processor (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2000CC", h_sub_2000CC, o_sub_2000CC)); // MONITORING: State Validator (bool return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2000E0", h_sub_2000E0, o_sub_2000E0)); // MONITORING: Permission Manager (bool return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 40 ===
+    // WhileHook(HOOK2(arcamod, "0x103F28", h_sub_103F28, o_sub_103F28)); // MONITORING: Extended String Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x103F88", h_sub_103F88, o_sub_103F88)); // MONITORING: System State Function (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x1040F4", h_sub_1040F4, o_sub_1040F4)); // MONITORING: Complex Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x104154", h_sub_104154, o_sub_104154)); // MONITORING: Basic System Function (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2000F4", h_sub_2000F4, o_sub_2000F4)); // MONITORING: System Cleanup (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200118", h_sub_200118, o_sub_200118)); // MONITORING: Thread Initializer (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200144", h_sub_200144, o_sub_200144)); // MONITORING: Memory Allocator (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2001B0", h_sub_2001B0, o_sub_2001B0)); // MONITORING: Pointer Manager (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x3000B0", h_sub_3000B0, o_sub_3000B0)); // MONITORING: Advanced Parameter Processor (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x30022C", h_sub_30022C, o_sub_30022C)); // MONITORING: State Manager (void return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 41 ===
+    // WhileHook(HOOK2(arcamod, "0x1042CC", h_sub_1042CC, o_sub_1042CC)); // MONITORING: Complex String Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x10432C", h_sub_10432C, o_sub_10432C)); // MONITORING: Basic System Function (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x10458C", h_sub_10458C, o_sub_10458C)); // MONITORING: Multi-Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x1045EC", h_sub_1045EC, o_sub_1045EC)); // MONITORING: Simple System Function (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2002BC", h_sub_2002BC, o_sub_2002BC)); // MONITORING: System Cleanup (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x20030C", h_sub_20030C, o_sub_20030C)); // MONITORING: Thread Manager (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200330", h_sub_200330, o_sub_200330)); // MONITORING: Data Validator (unsigned return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200354", h_sub_200354, o_sub_200354)); // MONITORING: Security Checker (unsigned return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x30027C", h_sub_30027C, o_sub_30027C)); // MONITORING: Advanced Multi-Parameter Handler (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x3002B0", h_sub_3002B0, o_sub_3002B0)); // MONITORING: State Manager (bool return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 42 ===
+    // WhileHook(HOOK2(arcamod, "0x1048D4", h_sub_1048D4, o_sub_1048D4)); // MONITORING: System Function (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x10518C", h_sub_10518C, o_sub_10518C)); // MONITORING: Complex String Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x1051E4", h_sub_1051E4, o_sub_1051E4)); // MONITORING: Basic System Function (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x105330", h_sub_105330, o_sub_105330)); // MONITORING: Multi-Parameter String Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200368", h_sub_200368, o_sub_200368)); // MONITORING: Memory Allocator (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2003E8", h_sub_2003E8, o_sub_2003E8)); // MONITORING: System Cleanup (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2003FC", h_sub_2003FC, o_sub_2003FC)); // MONITORING: Pointer Manager (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200474", h_sub_200474, o_sub_200474)); // MONITORING: Thread Initializer (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x300374", h_sub_300374, o_sub_300374)); // MONITORING: Data Validator (unsigned return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x3003C8", h_sub_3003C8, o_sub_3003C8)); // MONITORING: Security Checker (unsigned return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 43 ===
+    // WhileHook(HOOK2(arcamod, "0x105390", h_sub_105390, o_sub_105390)); // MONITORING: System Function (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x1054B4", h_sub_1054B4, o_sub_1054B4)); // MONITORING: Complex String Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x105514", h_sub_105514, o_sub_105514)); // MONITORING: Basic System Function (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x105638", h_sub_105638, o_sub_105638)); // MONITORING: Multi-Parameter String Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200488", h_sub_200488, o_sub_200488)); // MONITORING: QWORD Pointer Manager (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2004C4", h_sub_2004C4, o_sub_2004C4)); // MONITORING: System Cleanup (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2004D8", h_sub_2004D8, o_sub_2004D8)); // MONITORING: Memory Copy Manager (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x20052C", h_sub_20052C, o_sub_20052C)); // MONITORING: Triple Parameter Handler (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x3009CC", h_sub_3009CC, o_sub_3009CC)); // MONITORING: QWORD Pointer Array Manager (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x300A2C", h_sub_300A2C, o_sub_300A2C)); // MONITORING: Boolean Validator (unsigned return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 44 ===
+    // WhileHook(HOOK2(arcamod, "0x10AC20", h_sub_10AC20, o_sub_10AC20)); // MONITORING: System Function (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x10ADD8", h_sub_10ADD8, o_sub_10ADD8)); // MONITORING: Parameter Handler (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x10AE34", h_sub_10AE34, o_sub_10AE34)); // MONITORING: Basic System Function (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x10B098", h_sub_10B098, o_sub_10B098)); // MONITORING: Data Processor (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200554", h_sub_200554, o_sub_200554)); // MONITORING: System Cleanup (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200580", h_sub_200580, o_sub_200580)); // MONITORING: Memory Allocator (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2005A8", h_sub_2005A8, o_sub_2005A8)); // MONITORING: Thread Initializer (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2005D4", h_sub_2005D4, o_sub_2005D4)); // MONITORING: Pointer Manager (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x300B04", h_sub_300B04, o_sub_300B04)); // MONITORING: Data Validator (unsigned return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x300B38", h_sub_300B38, o_sub_300B38)); // MONITORING: Security Checker (bool return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 45 ===
+    // WhileHook(HOOK2(arcamod, "0x104A18", h_sub_104A18, o_sub_104A18)); // MONITORING: Multi-Parameter Integer Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x106DA8", h_sub_106DA8, o_sub_106DA8)); // MONITORING: Dual Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x107E0C", h_sub_107E0C, o_sub_107E0C)); // MONITORING: Extended Parameter Processor (unsigned return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x108A38", h_sub_108A38, o_sub_108A38)); // MONITORING: Complex Multi-Parameter Processor (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200B8C", h_sub_200B8C, o_sub_200B8C)); // MONITORING: Bool Validator (bool return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200CE4", h_sub_200CE4, o_sub_200CE4)); // MONITORING: Memory Manager (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2006F0", h_sub_2006F0, o_sub_2006F0)); // MONITORING: QWORD Pointer Manager (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x200728", h_sub_200728, o_sub_200728)); // MONITORING: QWORD System Handler (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x300494", h_sub_300494, o_sub_300494)); // MONITORING: Quad Parameter Unsigned Handler (unsigned return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x300A88", h_sub_300A88, o_sub_300A88)); // MONITORING: Advanced Bool Validator (bool return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 46 ===
+    // WhileHook(HOOK2(arcamod, "0x1FF7C4", h_sub_1FF7C4, o_sub_1FF7C4)); // MONITORING: System Cleanup Handler (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x1FF7D8", h_sub_1FF7D8, o_sub_1FF7D8)); // MONITORING: System Initializer (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x1FF804", h_sub_1FF804, o_sub_1FF804)); // MONITORING: Process Manager (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x1FF828", h_sub_1FF828, o_sub_1FF828)); // MONITORING: Core Handler (void return) - INACTIVE (NON-AKTIF CRASH)
+    // WhileHook(HOOK2(arcamod, "0x2FFBE0", h_sub_2FFBE0, o_sub_2FFBE0)); // MONITORING: Data Structure Manager (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2FFC10", h_sub_2FFC10, o_sub_2FFC10)); // MONITORING: Unsigned Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2FFC2C", h_sub_2FFC2C, o_sub_2FFC2C)); // MONITORING: System State Function (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2FFC54", h_sub_2FFC54, o_sub_2FFC54)); // MONITORING: Advanced System Controller (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x3FFA00", h_sub_3FFA00, o_sub_3FFA00)); // MONITORING: String Parameter Processor (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x3FFB28", h_sub_3FFB28, o_sub_3FFB28)); // MONITORING: Multi-Parameter Data Handler (__int64 return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 47 ===
+    // WhileHook(HOOK2(arcamod, "0x150140", h_sub_150140, o_sub_150140)); // MONITORING: System Initializer (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x1501A8", h_sub_1501A8, o_sub_1501A8)); // MONITORING: Memory Controller (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x150600", h_sub_150600, o_sub_150600)); // MONITORING: Configuration Manager (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x151160", h_sub_151160, o_sub_151160)); // MONITORING: Resource Handler (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2A03E0", h_sub_2A03E0, o_sub_2A03E0)); // MONITORING: Multi-Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2ADD80", h_sub_2ADD80, o_sub_2ADD80)); // MONITORING: System Manager (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2A0948", h_sub_2A0948, o_sub_2A0948)); // MONITORING: Advanced Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2ADD90", h_sub_2ADD90, o_sub_2ADD90)); // MONITORING: State Controller (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x353C40", h_sub_353C40, o_sub_353C40)); // MONITORING: Boolean Validator (bool return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x354060", h_sub_354060, o_sub_354060)); // MONITORING: Security Handler (__int64 return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 48 ===
+    // WhileHook(HOOK2(arcamod, "0x1500C8", h_sub_1500C8, o_sub_1500C8)); // MONITORING: Triple Parameter Void Handler (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x1501C0", h_sub_1501C0, o_sub_1501C0)); // MONITORING: String Array Processor (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x1503A4", h_sub_1503A4, o_sub_1503A4)); // MONITORING: Unsigned Array Processor (void return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x150444", h_sub_150444, o_sub_150444)); // MONITORING: Extended Multi-Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x250118", h_sub_250118, o_sub_250118)); // MONITORING: Single Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2502B4", h_sub_2502B4, o_sub_2502B4)); // MONITORING: Dual Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x2503E0", h_sub_2503E0, o_sub_2503E0)); // MONITORING: Parameter Processor (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x250940", h_sub_250940, o_sub_250940)); // MONITORING: QWORD Pointer Manager (_QWORD return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x353838", h_sub_353838, o_sub_353838)); // MONITORING: Advanced Parameter Handler (__int64 return) - INACTIVE
+    // WhileHook(HOOK2(arcamod, "0x353AA0", h_sub_353AA0, o_sub_353AA0)); // MONITORING: Unsigned Value Processor (unsigned return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 49 ===
+    WhileHook(HOOK2(arcamod, "0x15BE14", h_sub_15BE14, o_sub_15BE14)); // MONITORING: Dual Parameter Void Handler (void return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x15BF2C", h_sub_15BF2C, o_sub_15BF2C)); // MONITORING: Triple Parameter Void Handler (void return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x15C034", h_sub_15C034, o_sub_15C034)); // MONITORING: QWORD Dual Parameter Handler (_QWORD return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x15C178", h_sub_15C178, o_sub_15C178)); // MONITORING: QWORD Single Parameter Handler (_QWORD return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x152004", h_sub_152004, o_sub_152004)); // MONITORING: Int64 Dual Parameter Handler (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x152178", h_sub_152178, o_sub_152178)); // MONITORING: Int64 Triple Parameter Handler (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x25A144", h_sub_25A144, o_sub_25A144)); // MONITORING: Unsigned Dual Parameter Handler (unsigned return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x25A234", h_sub_25A234, o_sub_25A234)); // MONITORING: Unsigned Single Parameter Handler (unsigned return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x35F144", h_sub_35F144, o_sub_35F144)); // MONITORING: Bool Dual Parameter Handler (bool return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x35F234", h_sub_35F234, o_sub_35F234)); // MONITORING: Bool Single Parameter Handler (bool return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 50 ===
+    WhileHook(HOOK2(arcamod, "0x1A000C", h_sub_1A000C, o_sub_1A000C)); // MONITORING: Multi-Parameter System Manager (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x1A003C", h_sub_1A003C, o_sub_1A003C)); // MONITORING: QWORD Pointer Handler (void return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x1A0094", h_sub_1A0094, o_sub_1A0094)); // MONITORING: QWORD Result Manager (_QWORD return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x1A0108", h_sub_1A0108, o_sub_1A0108)); // MONITORING: Advanced QWORD Processor (_QWORD return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2A04D8", h_sub_2A04D8, o_sub_2A04D8)); // MONITORING: Quad Parameter Processor (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2A0560", h_sub_2A0560, o_sub_2A0560)); // MONITORING: System Resource Handler (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2A05B4", h_sub_2A05B4, o_sub_2A05B4)); // MONITORING: Unsigned Parameter Validator (unsigned return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2A05FC", h_sub_2A05FC, o_sub_2A05FC)); // MONITORING: Advanced Unsigned Handler (unsigned return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x3A00A4", h_sub_3A00A4, o_sub_3A00A4)); // MONITORING: Boolean System Validator (bool return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x3A0214", h_sub_3A0214, o_sub_3A0214)); // MONITORING: Advanced Boolean Controller (bool return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 51 ===
+    WhileHook(HOOK2(arcamod, "0x113A50", h_sub_113A50, o_sub_113A50)); // MONITORING: Error Handler (void return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x114710", h_sub_114710, o_sub_114710)); // MONITORING: Resource Manager (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x114788", h_sub_114788, o_sub_114788)); // MONITORING: Memory Controller (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x114D08", h_sub_114D08, o_sub_114D08)); // MONITORING: Thread Scheduler (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x115FE8", h_sub_115FE8, o_sub_115FE8)); // MONITORING: Status Monitor (unsigned return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x116134", h_sub_116134, o_sub_116134)); // MONITORING: Process Inspector (unsigned return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x200724", h_sub_200724, o_sub_200724)); // MONITORING: Security Gateway (_QWORD return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x200770", h_sub_200770, o_sub_200770)); // MONITORING: Encryption Engine (_QWORD return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x300CE8", h_sub_300CE8, o_sub_300CE8)); // MONITORING: Access Control (bool return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x3AB2A0", h_sub_3AB2A0, o_sub_3AB2A0)); // MONITORING: System Integrity (bool return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 52 ===
+    WhileHook(HOOK2(arcamod, "0x1E0040", h_sub_1E0040, o_sub_1E0040)); // MONITORING: Multi-Parameter Manager (void return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x1E008C", h_sub_1E008C, o_sub_1E008C)); // MONITORING: System State Function (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x1E0184", h_sub_1E0184, o_sub_1E0184)); // MONITORING: System Termination Handler (void return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x1E0258", h_sub_1E0258, o_sub_1E0258)); // MONITORING: Configuration Manager (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2E01A4", h_sub_2E01A4, o_sub_2E01A4)); // MONITORING: File Validation Manager (bool return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2E04D8", h_sub_2E04D8, o_sub_2E04D8)); // MONITORING: Data Stream Validator (bool return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2E0148", h_sub_2E0148, o_sub_2E0148)); // MONITORING: Pointer Transfer Manager (_QWORD return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2E04B8", h_sub_2E04B8, o_sub_2E04B8)); // MONITORING: Memory Result Processor (unsigned return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x3E0614", h_sub_3E0614, o_sub_3E0614)); // MONITORING: Advanced Parameter Manager (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x3E0674", h_sub_3E0674, o_sub_3E0674)); // MONITORING: String Parameter Handler (__int64 return) - INACTIVE
+
+    // === NEW MONITORING HOOKS SERIES 53 ===
+    WhileHook(HOOK2(arcamod, "0x1D0020", h_sub_1D0020, o_sub_1D0020)); // MONITORING: System State Manager (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x1D0028", h_sub_1D0028, o_sub_1D0028)); // MONITORING: Memory Pointer Manager (_QWORD return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x1D00A4", h_sub_1D00A4, o_sub_1D00A4)); // MONITORING: System Initialization Handler (void return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x1D0178", h_sub_1D0178, o_sub_1D0178)); // MONITORING: Resource Handler (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2F0004", h_sub_2F0004, o_sub_2F0004)); // MONITORING: Configuration Manager (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2F0100", h_sub_2F0100, o_sub_2F0100)); // MONITORING: Process Controller (void return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2F0134", h_sub_2F0134, o_sub_2F0134)); // MONITORING: Data Processor (void return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x2F0310", h_sub_2F0310, o_sub_2F0310)); // MONITORING: Status Validator (bool return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x3F01E8", h_sub_3F01E8, o_sub_3F01E8)); // MONITORING: Security Manager (__int64 return) - INACTIVE
+    WhileHook(HOOK2(arcamod, "0x3F0214", h_sub_3F0214, o_sub_3F0214)); // MONITORING: Authentication Handler (__int64 return) - INACTIVE
+
     // === ADDITIONAL MONITORING HOOKS ===
     // WhileHook(HOOK2(arcamod, "0x131CD4", h_sub_131CD4, o_sub_131CD4));
     // WhileHook(HOOK2(arcamod, "0x12BE38", h_sub_12BE38, o_sub_12BE38));

@@ -45,6 +45,21 @@
 #include "libanogs/h_monitoring_hooks_36.h" // MONITORING: 10 Hook functions series 200D74,200E4C,200ED8,200F30,200FDC untuk monitoring
 #include "libanogs/h_monitoring_hooks_37.h" // MONITORING: 10 Hook functions series 1083C4,106EF0,119CCC,1E2910,200054,10B130,200178,2002E4,200234,2003CC untuk monitoring
 #include "libanogs/h_monitoring_hooks_38.h" // MONITORING: 10 Hook functions series 1069D4,1287C4,10E808,1543B0,200D1C,201DF8,20AF4C,151B14,300034,3000DC untuk monitoring
+#include "libanogs/h_monitoring_hooks_39.h" // MONITORING: 10 Hook functions series 10355C,200084,1039B8,103A28,103A8C,2000A8,30000C,300090,2000CC,2000E0 untuk monitoring
+#include "libanogs/h_monitoring_hooks_40.h" // MONITORING: 10 Hook functions series 103F28,103F88,1040F4,104154,2000F4,200118,200144,2001B0,3000B0,30022C untuk monitoring
+#include "libanogs/h_monitoring_hooks_41.h" // MONITORING: 10 Hook functions series 1042CC,10432C,10458C,1045EC,2002BC,20030C,200330,200354,30027C,3002B0 untuk monitoring
+#include "libanogs/h_monitoring_hooks_42.h" // MONITORING: 10 Hook functions series 1048D4,10518C,1051E4,105330,200368,2003E8,2003FC,200474,300374,3003C8 untuk monitoring
+#include "libanogs/h_monitoring_hooks_43.h" // MONITORING: 10 Hook functions series 105390,1054B4,105514,105638,200488,2004C4,2004D8,20052C,3009CC,300A2C untuk monitoring
+#include "libanogs/h_monitoring_hooks_44.h" // MONITORING: 10 Hook functions series 10AC20,10ADD8,10AE34,10B098,200554,200580,2005A8,2005D4,300B04,300B38 untuk monitoring
+#include "libanogs/h_monitoring_hooks_45.h" // MONITORING: 10 Hook functions series 104A18,106DA8,107E0C,108A38,200B8C,200CE4,2006F0,200728,300494,300A88 untuk monitoring
+#include "libanogs/h_monitoring_hooks_46.h" // MONITORING: 10 Hook functions series 1FF7C4,1FF7D8,1FF804,1FF828,2FFBE0,2FFC10,2FFC2C,2FFC54,3FFA00,3FFB28 untuk monitoring
+#include "libanogs/h_monitoring_hooks_47.h" // MONITORING: 10 Hook functions series 150140,1501A8,150600,151160,2A02E0,2ADD80,2A0848,2ADD90,353C40,354060 untuk monitoring
+#include "libanogs/h_monitoring_hooks_48.h" // MONITORING: 10 Hook functions series 1500C8,1501C0,1503A4,150444,250118,2502B4,2503E0,250940,353838,353AA0 untuk monitoring
+#include "libanogs/h_monitoring_hooks_49.h" // MONITORING: 10 Hook functions series 15BE14,15BF2C,15C034,15C178,152004,152178,25A144,25A234,35F144,35F234 untuk monitoring
+#include "libanogs/h_monitoring_hooks_50.h" // MONITORING: 10 Hook functions series 1A000C,1A003C,1A0094,1A0108,2A04D8,2A0560,2A05B4,2A05FC,3A00A4,3A0214 untuk monitoring
+#include "libanogs/h_monitoring_hooks_51.h" // MONITORING: 10 Hook functions series 113A50,114710,114788,114D08,115FE8,116134,200724,200770,300CE8,3AB2A0 untuk monitoring
+#include "libanogs/h_monitoring_hooks_52.h" // MONITORING: 10 Hook functions series 1E0040,1E008C,1E0184,1E0258,2E01A4,2E04D8,2E0148,2E04B8,3E0614,3E0674 untuk monitoring
+#include "libanogs/h_monitoring_hooks_53.h" // MONITORING: 10 Hook functions series 1D0020,1D0028,1D00A4,1D0178,2F0004,2F0100,2F0134,2F0310,3F01E8,3F0214 untuk monitoring
 // #include "libanogs/h_sub_131CD4.h"
 // #include "libanogs/h_sub_12BE38.h"
 //#include "libanogs/h_sub_24A3FC.h"
